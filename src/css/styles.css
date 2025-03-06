@@ -7,22 +7,21 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   font-family: 'Montserrat', sans-serif;
-  height: 100vh;
-  flex-direction: column;
+  padding: 20px;
   background-color: #fff;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  gap: 20px;
   width: 100%;
   max-width: 1200px;
-  padding: 20px;
-  flex-grow: 1;
 }
 
 .search-form {
@@ -63,7 +62,7 @@ button {
   gap: 24px;
   justify-content: center;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 80px; 
 }
 
 .gallery-item {
@@ -161,11 +160,14 @@ button {
   overflow: hidden;
 }
 
+
 .load-more {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 30px; 
+  padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
